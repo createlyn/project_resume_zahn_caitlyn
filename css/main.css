@@ -74,6 +74,12 @@ a {
     padding: 0;
 }
 
+.hover {
+    transition: 1s ease-in-out;
+    -webkit-box-shadow: 0 0 10px 10px #cccccc;
+    box-shadow: 0 0 10px 10px #cccccc;
+}
+
 .resume_header {
     background-color: #41d0f4;
     width: 100%;
@@ -116,8 +122,8 @@ a {
 .resume-image {
     background: url('../img/caitlyn.jpg');
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    width: 211px;
+    height: 211px;
     margin: auto;
 }
 
@@ -204,6 +210,10 @@ footer {
 
 /* desktop */
 @media all and (min-width: 768px) {
+    table {
+        margin-left: 1vw;
+    }
+
     footer {
         position: absolute;
     }
