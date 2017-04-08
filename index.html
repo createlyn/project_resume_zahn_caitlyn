@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/simple-text-rotator.css">
 </head>
 <body>
   <header class="resume_header">
@@ -16,31 +17,79 @@
       <h4 class="margin-reset">Front-End Web Developer</h4>
     </div>
   </header>
-  <main class="container">
-    <!-- <section class="resume_info">
-      <div class="resume_image">
+  <main>
+    <section id="resume-layout">
+      <ul class="idTabs">
+        <li class="tabs"><a href="#tab1" class="selected">Info</a></li>
+        <li class="tabs"><a href="#tab2">Education</a></li>
+        <li class="tabs"><a href="#tab3">Work Experience</a></li>
+        <li class="tabs"><a href="#tab4">Skills</a></li>
+        <li class="tabs"><a href="#tab5">Interests</a></li>
+      </ul>
+      <div class="tab-info" id="tab1">
+          <h2>I'm Caitlyn</h2>
+      </div>
+
+      <div class="tab-info" id="tab2">
+        <div class="education">
+          <h3 class="margin-reset">Metuchen High School</h3>
+          <p>Metuchen, NJ</p>
+          <p>2005 - 2009</p>
+        </div>
+        <div class="education">
+          <h3 class="margin-reset">West Virginia University</h3></h3>
+          <p>Morgantown, WV</p>
+          <p>2009 - 2013</p>
+        </div>
+        <div class="education">
+          <h3 class="margin-reset">University of Florida</h3></h3>
+          <p>Gainsville, FL</p>
+          <p>2015 - 2017</p>
+        </div>
+
 
       </div>
-      <div class="info">
-            words words words
+
+      <div class="tab-info" id="tab3">
+        <div class="work-experience">
+          <h4 class="margin-reset">Made By Munsters</h4>
+          <h5 class="margin-reset">Developer Apprentice</h5>
+          <h6 class="margin-reset">January 2017 - present</h6>
+          <p>Assist with duties customarily performed by an employee in a front-end
+            developer position such as creating website layout/user interfaces
+            using HTML, CSS and JavaScript. Work with team to implement designs
+             and communicate with clients about working prototypes.</p>
+        </div>
+        <div class="work-experience">
+          <h4 class="margin-reset">Bealls Inc.</h4>
+          <h5 class="margin-reset">Digital/Web Graphic Designer</h5>
+          <h6 class="margin-reset">November 2015 - July 2016</h6>
+          <p>Supports the e-com team for the Bealls Outlet and Burkes Outlet
+            division of Beall's, Inc. in creating emails, site page updates,
+            banners and interactive pieces. </p>
+        </div>
+        <div class="work-experience">
+          <h4 class="margin-reset">Star2Star</h4>
+          <h5 class="margin-reset">Graphic Design Intern</h5>
+          <h6 class="margin-reset">August 2015 - November 2015</h6>
+          <p>Assist with with designs for internal and external marketing.
+            As well as, assisting with graphics and images related to the
+            company website.</p>
+        </div>
+
       </div>
-    </section>
-    <section class="resume_education">
-sdasd
-    </section>
-    <section class="resume_work-experience">
-asdkalkdjflskd
-    </section>
-    <section class="resume_skills">
 
-    </section> -->
+      <div class="tab-info" id="tab4">
+        <h1><span class="rotate">HTML, CSS, SASS, JavaScript, jQuery, Graphic Design</span></h1>
 
-    <ul class="idTabs">
-      <li class="tabs"><a href="#jquery">jQuery</a></li>
-      <li class="tabs"><a href="#official">Tabs 3</a></li>
-    </ul>
-    <div id="jquery">If you haven't checked out ...</div>
-    <div id="official">idTabs is only a simple ...</div>
+      </div>
+
+      <div class="tab-info" id="tab5">
+        <h2>I like <span class="rotate">coding, creating, learning</span></h2
+
+      </div>
+
+    </section>
   </main>
   <footer>
 
@@ -51,6 +100,7 @@ asdkalkdjflskd
 
     <script src="js/jquery-3.2.0.min.js"></script>
     <script src="js/jquery.idTabs.min.js"></script>
+    <script src="js/jquery.simple-text-rotator.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
